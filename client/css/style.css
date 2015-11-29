@@ -1,0 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.cursor {
+	position: absolute;
+	width: 15px;
+	height: 20px;
+	background-image: url(../img/cursor-01.png);
+}
