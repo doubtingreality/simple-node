@@ -1,0 +1,19 @@
+{
+  "name": "simple-node",
+  "version": "0.0.1",
+  "description": "Dynamic listening server",
+  "main": "simplenode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doubtingreality/simple-node.git"
+  },
+  "author": "Murtada al Mousawy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doubtingreality/simple-node/issues"
+  },
+  "homepage": "https://github.com/doubtingreality/simple-node#readme"
+}
