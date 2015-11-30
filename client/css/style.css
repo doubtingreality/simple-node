@@ -3,9 +3,29 @@
 	padding: 0;
 }
 
+body {
+	overflow: hidden;
+}
+
 .cursor {
 	position: absolute;
+	top: 0;
+	left: 0;
 	width: 15px;
 	height: 20px;
 	background-image: url(../img/cursor-01.png);
+	transition: all 0.05s ease;
+	pointer-events: none;
+}
+
+#blocks-layer .block {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: red;
+	pointer-events: none;
+	opacity: 0.4;
 }
